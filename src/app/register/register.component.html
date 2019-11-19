@@ -1,0 +1,26 @@
+
+
+<form #myForm="ngForm" (ngSubmit)="addData(myForm)" role="form">
+  <div class="form-group">
+    Movie_ID
+    <input ngModel type="number" class="form-control" id="m" name="mid">
+  </div>
+  <div class="form-group">
+    Movie_name
+    <input ngModel type="text" class="form-control" id="mi" name="mname">
+  </div>
+  <div class="form-group">
+    Director
+    <input ngModel type="text" class="form-control" id="mid" name="director">
+  </div>
+  <div class="form-group">
+    Rating
+    <input ngModel type="number" class="form-control" id="midd" name="rating">
+  </div>
+  <div class="form-group">
+    Budget
+    <input ngModel type="text" class="form-control" id="midi" name="budget">
+  </div>
+
+<button type="submit" class="btn btn-primary" >Addit</button>
+</form>
